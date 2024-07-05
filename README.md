@@ -1,57 +1,38 @@
-# Ant Design Pro
+# user-center
+Welcome to user-center, a project built with React and TypeScript for managing user profiles and related functionalities.
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+## Features
++ User Profile Management: Create, update, and delete user profiles.
++ Authentication: Secure user login and logout functionality.
++ User Dashboard: View and manage user-specific data and settings.
++ Responsive Design: Ensures a seamless experience across different devices.
+## Technologies Used
++ React: Frontend JavaScript library for building user interfaces.
++ TypeScript: Typed superset of JavaScript that compiles to plain JavaScript.
++ CSS Modules: Scoped CSS for modular styling.
++ Axios: Promise-based HTTP client for making API requests.
++ React Router: Declarative routing for navigating within the application.
 
-## Environment Prepare
+## Installation and Setup
++ Clone the repository:
+```
+git clone https://github.com/DigitalAlexG/user-center.git
+cd user-center
+```
++ Install dependencies:
 
-Install `node_modules`:
-
-```bash
+```
 npm install
 ```
++ Run the application:
 
-or
-
-```bash
-yarn
 ```
-
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
-### Start project
-
-```bash
 npm start
 ```
+The application will be accessible at http://localhost:3000.
 
-### Build project
+## Contributing
+Contributions are welcome! Feel free to open issues and pull requests for any improvements or features you'd like to add.
 
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
